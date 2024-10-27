@@ -14,8 +14,46 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
     />
+    body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        .navbar {
+            display: flex;
+            align-items: center;
+            background-color: #333; /* Navbar background color */
+            padding: 10px;
+        }
+        .navbar img {
+            height: 50px; /* Adjust the height of the logo */
+            margin-right: 20px; /* Space between logo and links */
+        }
+        .navbar a {
+            color: white; /* Link color */
+            text-decoration: none; /* No underline */
+            padding: 14px 20px; /* Link padding */
+            display: inline-block;
+        }
+        .navbar a:hover {
+            background-color: #575757; /* Background color on hover */
+        }
+    </style>
+</head>
+<body>
+
+<nav class="navbar">
+    <img src="https://png.pngtree.com/png-vector/20240211/ourmid/pngtree-lord-krishna-with-flute-png-image_11737273.png" alt="Lord Krishna Logo"> <!-- Logo URL -->
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+</body>
 
     <style>
+
+      
       .chatbot-container {
         position: fixed;
         bottom: 20px; /* Adjust as needed */
